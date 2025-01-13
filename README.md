@@ -1,2 +1,2 @@
-# Calculus-study-extention
+# Calculus-study-extension
 Helps me study, out soon...
