@@ -43,7 +43,7 @@ def check(questions: str):
 
         performance[key] = {
             "correct":is_correct,
-            "points": points
+            "points": points,
         }
 
         if not is_correct:
@@ -56,3 +56,14 @@ def check(questions: str):
     print(f"\nSummary:\n\nCorrect answers: {correct}\nTotal points: {pts}")
 
     return dict(performance)
+
+#possible output
+# Quiz Summary:
+# - Correct Answers: 2/3
+# - Total Points: 4/9
+# - Questions Missed: question18
+
+
+
+
+
